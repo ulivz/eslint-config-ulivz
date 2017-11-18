@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-ulivz",
+  "version": "1.0.0",
+  "description": "eslint config for ulivz.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js",
+    "fix": "npm run test -- --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo/esnext",
+      "./prettier.js"
+    ]
+  },
+  "files": [
+    "index.js",
+    "prettier.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/eslint-config-rem.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/eslint-config-rem/issues"
+  },
+  "homepage": "https://github.com/egoist/eslint-config-rem#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^1.7.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-xo": "^0.18.1",
+    "xo": "^0.18.1"
+  }
+}
