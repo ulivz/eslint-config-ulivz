@@ -1,5 +1,7 @@
 # ESLint config for ulivz
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/eslint-config-ulivz.svg)](https://greenkeeper.io/)
+
 This config is supposed to work with [XO](https://github.com/sindresorhus/xo) or [eslint-config-xo](https://github.com/sindresorhus/eslint-config-xo).
 
 > modified from [eslint-config-rem](https://github.com/egoist/eslint-config-rem)
