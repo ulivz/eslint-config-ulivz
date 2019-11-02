@@ -37,7 +37,7 @@
     "prettier": "^1.2.2"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^6.6.0",
     "eslint-config-xo": "^0.18.1",
     "xo": "^0.18.1"
   }
